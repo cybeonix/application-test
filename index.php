@@ -1,9 +1,7 @@
 <?php
 echo "<!doctype html>";
-echo "<head>Application Example</head>";
 
-echo "<html><body>";
-
+echo "<html><head><title>Application Example</title></head><body>";
 echo <<<STYLE
 <style>
 
