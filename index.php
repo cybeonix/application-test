@@ -1,8 +1,14 @@
 <?php
 echo "<!doctype html>";
+echo "<head>Application Example</head>";
+
+echo "<html><body>";
 
 echo <<<STYLE
 <style>
+
+
+
 table, td, th {
     border: 1px solid black;
 }
@@ -54,4 +60,5 @@ foreach($people as $item) {
 
 echo "</table>";
 
+echo "</body></html>";
 ?>
